@@ -37,7 +37,7 @@ void controleur_test_obstacle(void) {
     bool button=true;
     float radar=100;
     OutputControler output = controleur(button, radar);
-    CU_ASSERT(false);
+    CU_ASSERT(output.systeme_freinage);
 }
 
 
