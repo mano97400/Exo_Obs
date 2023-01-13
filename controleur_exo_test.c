@@ -38,8 +38,6 @@ void controleur_test_obstacle(void) {
     float radar=100;
     OutputControler output = controleur(button, radar);
     CU_ASSERT(false);
-
-
 }
 
 
